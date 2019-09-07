@@ -1,5 +1,5 @@
 @extends('template')
 
 @section('content')
-    contacts
+    category
 @endsection
