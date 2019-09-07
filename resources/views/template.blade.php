@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 </head>
 <body>
-    <div>Шапка</div>
+    <div>
+        <nav class="uk-navbar-container" uk-navbar>
+            @include('menu')
+        </nav>
+    </div>
     <div>@yield('content')</div>
     <div>Подвал</div>
+    <script src="{{mix('/js/app.js')}}"></script>
 </body>
 </html>
