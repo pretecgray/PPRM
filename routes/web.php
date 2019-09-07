@@ -16,3 +16,4 @@
 Route::get('/', 'SiteController@index');
 Route::get('/contacts', 'SiteController@contacts');
 Route::get('/category/{id}', 'SiteController@category');
+Route::get('/auth', 'SiteController@auth');

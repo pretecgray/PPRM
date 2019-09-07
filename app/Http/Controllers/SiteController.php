@@ -20,4 +20,9 @@ class SiteController extends Controller
     {
         return view('contacts');
     }
+
+    public function auth()
+    {
+        return view('auth');
+    }
 }
